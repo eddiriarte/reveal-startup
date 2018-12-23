@@ -1,0 +1,34 @@
+{
+  "name": "reveal-startup",
+  "version": "1.0.0",
+  "description": "An easy to use bootstrapper for RevealJS.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "yarn run build && webpack-dev-server --open",
+    "build": "webpack --mode production"
+  },
+  "author": {
+    "name": "Eduardo Iriarte-Mendez",
+    "email": "eddiriarte@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "imports-loader": "^0.8.0",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "reveal.js": "^3.7.0"
+  }
+}
